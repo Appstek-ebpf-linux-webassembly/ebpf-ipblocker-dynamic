@@ -52,7 +52,7 @@ grpc-stream/client$ go run client.go
 once client.json is complete its execution 
 check the Policy/output.json file which contain the ip which is send by server .
 
-Now again check the xdp-drop console 1 to varify that ip is blocked and Action indicate 1 : Action : 2 is allowed .
+Now again check the xdp-drop console 1 to varify that ip is blocked and Action indicate 1 : Block : 2 : UnBlock
 
 
 
