@@ -43,7 +43,7 @@ switch to directory grpc-stream/server
 	ip := "35.163.22.86"
 	port := "8080"
  }
- Take any ip which is frequently appere in terminal log 
+ Replace IP with any ip which is frequently appere in terminal log or any other which you wants to block 
  **********
 
 in new console
