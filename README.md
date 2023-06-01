@@ -21,8 +21,11 @@ step 3  Select 2 or 3 depend upon your choice for LAN and
         wifi NC
 
 Run the command (console 1)
+
 xdp-drop$ RUST_LOG=info cargo xtask run -- --iface wlp113s0(debug mode)
- sudo -E RUST_LOG=debug target/release/xdp-drop --iface wlp113s0(release mode)
+
+
+sudo -E RUST_LOG=debug target/release/xdp-drop --iface wlp113s0(release mode)
 ------------------------------------------------------------
 
 Run the application grpc stream to fatch list of ip aadress dynamically into IPBlocker
