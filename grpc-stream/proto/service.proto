@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package mypackage;
+option go_package = "/proto/mypackage";
+
+service IPInfoService {
+  rpc StreamIPInfo (StreamIPRequest) returns (stream StreamIPResponse) {}
+}
+
+message StreamIPRequest {}
+
+message StreamIPResponse {
+  string ip = 1;
+  string port = 2;
+}
